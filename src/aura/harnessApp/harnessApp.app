@@ -2,4 +2,5 @@
     <c:helloWorld />
     <c:helloPlayground />
     <c:helloMessageInteractive />
+    <c:helloWorldSLDSCard />
 </aura:application>
