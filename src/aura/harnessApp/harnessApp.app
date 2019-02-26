@@ -1,3 +1,3 @@
 <aura:application extends="force:slds">
-    <c:CarouselDemo />
+    <c:VFToLightning />
 </aura:application>
