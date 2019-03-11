@@ -26,7 +26,5 @@
     <tabs>Broker__c</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>Sample_Data_Import</tabs>
-    <tabs>Project__c</tabs>
-    <tabs>Deliverable__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

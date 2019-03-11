@@ -168,11 +168,6 @@
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
-        <fullName>Status</fullName>
-        <trackHistory>true</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
         <fullName>TotalAmount</fullName>
     </fields>
     <fields>

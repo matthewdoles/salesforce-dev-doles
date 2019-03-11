@@ -1,3 +1,0 @@
-<aura:event type="APPLICATION" description="ProjectSearchSubmit">
-    <aura:attribute name="projectId" type="String"/>
-</aura:event>
