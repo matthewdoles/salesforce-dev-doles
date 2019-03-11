@@ -5,4 +5,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-Chatter</tabs>
     <tabs>Waypoint__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
 </CustomApplication>

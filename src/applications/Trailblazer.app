@@ -14,6 +14,8 @@
     <tabs>Waypoint__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazer_UtilityBar</utilityBar>
 </CustomApplication>

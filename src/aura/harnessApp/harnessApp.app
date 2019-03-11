@@ -1,3 +1,3 @@
 <aura:application extends="force:slds">
-    <c:VFToLightning />
+    <c:GanttView />
 </aura:application>
