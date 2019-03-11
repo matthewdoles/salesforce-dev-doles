@@ -25,5 +25,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
     <tabs>Waypoint__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

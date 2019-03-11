@@ -180,7 +180,15 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>Waypoint__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Deliverable__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Project__c</tab>
+        </mappings>
         <mappings>
             <tab>Waypoint__c</tab>
         </mappings>

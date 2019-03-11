@@ -13,9 +13,17 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
     <tabs>Waypoint__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Deliverable__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Project__c</tab>
+        </mappings>
         <mappings>
             <tab>Waypoint__c</tab>
         </mappings>
