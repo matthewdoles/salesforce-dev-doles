@@ -1,4 +1,4 @@
-<aura:component description="CreateLeadRecord" implements="flexipage:availableForRecordHome,force:hasRecordId">
+<aura:component description="CreateLeadRecord" implements="flexipage:availableForRecordHome, force:hasRecordId">
     <aura:attribute name="companyName" type="String"/>
     <lightning:layout verticalAlign="start" multipleRows="true">
         <lightning:layoutItem flexibility="auto" padding="around-small">
@@ -14,3 +14,4 @@
         </lightning:layoutItem>
     </lightning:layout>
 </aura:component>
+

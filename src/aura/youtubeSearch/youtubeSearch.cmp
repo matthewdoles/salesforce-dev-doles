@@ -1,5 +1,5 @@
-<aura:component description="youtubeSearch" implements="force:appHostable,flexipage:availableForAllPageTypes"
-                access="global" controller="Youtubesearch">
+<aura:component description="youtubeSearch" implements="force:appHostable, flexipage:availableForAllPageTypes"
+                access="global" controller="YoutubeSearch">
     <aura:attribute name="searchTerm" type="String" />
     <aura:attribute name="data" type="Map" />
     <div class="c-container" style="padding-top: 50px;">

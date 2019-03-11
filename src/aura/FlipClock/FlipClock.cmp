@@ -1,4 +1,4 @@
-<aura:component description="FlipClock" implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+<aura:component description="FlipClock" implements="force:appHostable, flexipage:availableForAllPageTypes" access="global">
     <ltng:require styles="{!$Resource.flipClock + '/flipclock/flipclock.css'}"
                   scripts="{!join(',', $Resource.flipClock + '/flipclock/jquery-1.8.3.js',
                   $Resource.flipClock + '/flipclock/flipclock.js')}"

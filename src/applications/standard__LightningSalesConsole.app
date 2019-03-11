@@ -19,17 +19,9 @@
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
     <tabs>Waypoint__c</tabs>
-    <tabs>Project__c</tabs>
-    <tabs>Deliverable__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Deliverable__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Project__c</tab>
-        </mappings>
         <mappings>
             <tab>Waypoint__c</tab>
         </mappings>

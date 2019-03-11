@@ -1,4 +1,4 @@
-<aura:component description="SalesLeaderBoard" implements="force:appHostable,flexipage:availableForAllPageTypes"
+<aura:component description="SalesLeaderBoard" implements="force:appHostable, flexipage:availableForAllPageTypes"
                 controller="SalesLeaderBoardController">
     <aura:handler name="init" value="{!this}" action="{!c.getData}" />
     <aura:attribute name="lstsalesUser" type="SalesLeader[]" />

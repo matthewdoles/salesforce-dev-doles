@@ -1,17 +1,17 @@
 public with sharing class SalesLeaderBoardController {
-    @AuraEnabled 
+    @AuraEnabled
     public static List<SalesLeader> getSLDashboardData() {
         List<SalesLeader> listsalesleader = new List<SalesLeader>();
-        Integer THIS_YEAR = System.date.today().year();
+        Integer THIS_YEAR = System.Date.today().year();
         Map<String, Decimal> mapUserIdByAmount = new Map<String, Decimal>();
-        for (AggregateResult ag:[SELECT SUM(Amount) sum, OwnerId
+        for (AggregateResult ag:[SELECT SUM(Amount) total, OwnerId
                                  FROM Opportunity
                                  WHERE StageName = 'Closed Won'
                                  AND CALENDAR_YEAR(CloseDate) = :THIS_YEAR
                                  GROUP BY OwnerId
                                  ORDER BY SUM(Amount) DESC
                                  LIMIT 10]){
-            mapUserIdByAmount.put((String)ag.get('OwnerId'), (Decimal)ag.get('sum'));
+            mapUserIdByAmount.put((String)ag.get('OwnerId'), (Decimal)ag.get('total'));
         }
         for (User u : [SELECT Id, Name, Email, FullPhotoUrl FROM User WHERE Id IN :mapUserIdByAmount.keySet()]) {
             SalesLeader sleader = new SalesLeader(u.Name, u.Email, u.Id, mapUserIdByAmount.get(u.Id), u.FullPhotoUrl);

@@ -1,4 +1,4 @@
-<aura:component description="accDisplay" implements="flexipage:availableForRecordHome,force:hasRecordId">
+<aura:component description="accDisplay" implements="flexipage:availableForRecordHome, force:hasRecordId">
     <aura:attribute name="recordId" type="Id" />
     <aura:attribute name="accountRecord" type="Account" />
     <force:recordData aura:id="accountRecord"

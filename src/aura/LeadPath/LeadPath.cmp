@@ -1,4 +1,4 @@
-<aura:component description="LeadPath" implements="force:hasRecordId,flexipage:availableForRecordHome">
+<aura:component description="LeadPath" implements="force:hasRecordId, flexipage:availableForRecordHome">
     <aura:attribute name="currentStep" type="String"/>
     <aura:attribute name="recordId" type="String"/>
     <aura:attribute name="record" type="Object"/>

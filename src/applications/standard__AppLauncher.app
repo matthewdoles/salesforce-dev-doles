@@ -6,6 +6,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-AppLauncher</tabs>
     <tabs>Waypoint__c</tabs>
-    <tabs>Project__c</tabs>
-    <tabs>Deliverable__c</tabs>
 </CustomApplication>

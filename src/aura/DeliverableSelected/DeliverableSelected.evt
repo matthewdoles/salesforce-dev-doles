@@ -1,3 +1,0 @@
-<aura:event type="APPLICATION" description="DeliverableSelected">
-    <aura:attribute name="deliverableId" type="String"/>
-</aura:event>
