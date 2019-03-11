@@ -12,4 +12,6 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>Waypoint__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
 </CustomApplication>

@@ -20,6 +20,8 @@
     <navType>Standard</navType>
     <tabs>Session__c</tabs>
     <tabs>Speaker__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Conference_UtilityBar</utilityBar>
 </CustomApplication>
