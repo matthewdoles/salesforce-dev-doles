@@ -1,4 +1,3 @@
-
 <aura:application description="LightningLayoutNestedApp" extends="force:slds">
     <div class="c-container">
         <lightning:layout multipleRows="true">

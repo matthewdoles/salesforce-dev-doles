@@ -1,4 +1,3 @@
-
 public with sharing class GetContactsControllerAura {
     @AuraEnabled
     public static List<Contact> getServerContacts() {

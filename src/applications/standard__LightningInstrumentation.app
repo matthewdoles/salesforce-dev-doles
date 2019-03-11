@@ -7,5 +7,7 @@
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
     <tabs>Waypoint__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Deliverable__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
