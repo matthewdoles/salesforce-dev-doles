@@ -33,8 +33,8 @@ public with sharing class ProjectSearchForm {
 
         List<String> months = new List<String>();
         List<String> monthNames = new List<String>{
-                '', 'January', 'February', 'March', 'April', 'May', 'June',
-                'July', 'August', 'September', 'October', 'November', 'December'
+                '', 'Jan.', 'Feb.', 'Mar', 'Apr.', 'May', 'Jun.',
+                'Jul.', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'
         };
         for (Integer i = 0; i < numberOfMonths; i++) {
             String month = monthNames.get(firstDate.month());
