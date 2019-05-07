@@ -26,10 +26,10 @@ controller="ProjectSearchForm">
                 </lightning:layoutItem>
             </lightning:layout>
             <lightning:layout multipleRows="false">
-                <lightning:layoutItem size="2">
+                <lightning:layoutItem size="3">
                     <div class="custom-box" style="width: 100%">Deliverable</div>
                 </lightning:layoutItem>
-                <lightning:layoutItem size="10">
+                <lightning:layoutItem size="9">
                     <aura:iteration var="month" items="{!v.ganttHeaderMonths}">
                         <div class="custom-box" style="{!'width: ' + v.ganttHeaderWidth + '%;'}">{!month}</div>
                     </aura:iteration>
@@ -37,13 +37,13 @@ controller="ProjectSearchForm">
             </lightning:layout>
             <lightning:layout multipleRows="true">
                 <aura:iteration var="ganttItem" items="{!v.ganttItems}">
-                    <lightning:layoutItem size="2">
+                    <lightning:layoutItem size="3">
                         <div class="custom-box" style="width: 100%">
                             <p>{!ganttItem.Name}</p>
                             <p>{!ganttItem.Start_Date__c} - {!ganttItem.Due_Date__c}</p>
                         </div>
                     </lightning:layoutItem>
-                    <lightning:layoutItem size="10">
+                    <lightning:layoutItem size="9">
                         <c:ganttTile ganttItem="{!ganttItem}"/>
                     </lightning:layoutItem>
                 </aura:iteration>
