@@ -1,10 +1,41 @@
 ({
-    doInit: function (component, event, helper) {
-        helper.getAccountList(component);
+    onAccountsLoaded: function (component, event, helper) {
+        var cols = [
+            {
+                'label' : 'Name',
+                'fieldName' : 'Name',
+                'type' : 'text'
+            },
+            {
+                'label' : 'Phone',
+                'fieldName' : 'Phone',
+                'type' : 'phone'
+            },
+            {
+                'label' : 'Action',
+                'type' : 'button',
+                'typeAttributes' : {
+                    'label' : 'View details',
+                    'name' : 'view_details'
+                }
+            }
+        ];
+        component.set( 'v.cols', cols );
+        component.set( 'v.rows', event.getParam( 'accounts' ) );
     },
-    deleteAccount: function (component, event, helper) {
-        event.preventDefault();
-        var accountName = event.target.getElementsByClassName('account-name')[0].value;
-        confirm('Delete the ' + accountName + ' account? (Testing purposes only, will not delete!)');
+    onRowAction: function (component, event, helper) {
+        var action = event.getParam('action');
+        var row = event.getParam('row');
+        if (action.name == 'view_details') {
+            var navigation = component.find('navigation');
+            navigation.navigate({
+                'type' : 'standard__recordPage',
+                'attributes' : {
+                    'objectApiName' : 'Account',
+                    'recordId' : row.Id,
+                    'actionName' : 'view'
+                }
+            })
+        }
     }
 })
