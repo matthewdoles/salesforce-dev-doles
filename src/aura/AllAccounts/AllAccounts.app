@@ -1,4 +1,4 @@
 
 <aura:application description="AllAccounts" extends="force:slds">
-    <c:AccountList/>
+    <c:AccountListAllAccounts/>
 </aura:application>
