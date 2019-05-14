@@ -23,15 +23,6 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>Billing_Support_Agents</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.Status</field>
-                <operation>equals</operation>
-                <value>New</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
             <assignedTo>matthew.doles@salesforce.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
