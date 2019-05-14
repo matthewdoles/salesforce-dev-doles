@@ -299,16 +299,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Support_Plan_Start_Date__c</fullName>
-        <description>Start date of current support plan</description>
-        <externalId>false</externalId>
-        <inlineHelpText>When did the current support plan begin?</inlineHelpText>
-        <label>Support Plan Start Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
