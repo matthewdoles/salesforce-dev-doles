@@ -1,4 +1,4 @@
-<aura:component description="AccountLocator" implements="force:appHostable, flexipage:availableForAllPageTypes">
+<aura:component description="AccountLocator" implements="force:appHostable,flexipage:availableForAllPageTypes">
     <lightning:layout horizontalAlign="space" multipleRows="true">
         <lightning:layoutItem size="12" mediumDeviceSize="12" padding="around-small">
             <div class="slds-box slds-theme--default">
