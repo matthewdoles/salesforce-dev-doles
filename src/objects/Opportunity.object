@@ -108,6 +108,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>StageName</controllingField>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -126,6 +127,18 @@
                     <label>Completed</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>In progress</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Yet to begin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Completed</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
